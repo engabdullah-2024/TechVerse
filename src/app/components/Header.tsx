@@ -55,8 +55,8 @@ const Header = () => {
         <nav className="md:hidden bg-white shadow-md px-6 py-4 space-y-4 font-medium text-gray-700">
           <a href="#" className="block hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#articles" className="block hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>Articles</a>
-          <a href="#" className="block hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>About</a>
-          <a href="#" className="block hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>Contact</a>
+          <a href="#about" className="block hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>About</a>
+          <a href="#contact" className="block hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>Contact</a>
         </nav>
       )}
     </header>
